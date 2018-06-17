@@ -9,7 +9,7 @@ public class Test {
 		Dog gae = (Dog) aDog; //일시적으로 다운캐스팅
 		gae.playFetch();//downcasting 
 		aDog = new Cat("나비");
-		((Dog) aDog).playFetch();//runtime error
+//		((Dog) aDog).playFetch();//runtime error
 //error		aDog.playFetch();
 //error		((Cat) aDog).playFetch();
 		aCat = new Dog("해피");

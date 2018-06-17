@@ -10,9 +10,10 @@ public class TestAnimalSing {
 		as.add(new Cat("누루"));
 		as.add(new Cat("나비"));
 		as.add(new Cat("고양이"));
+		as.sing();
 		as.add(new Cat("에이씨"));
 		
-		as.sing();
+		
 		
 	}
 
